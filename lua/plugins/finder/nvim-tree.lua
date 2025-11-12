@@ -57,7 +57,7 @@ return {
     },
     filters = {
       git_ignored = false, -- Show git ignored files
-      dotfiles = true,    -- Show dotfiles
+      dotfiles = false,   -- Show dotfiles (including .env, .gitignore, etc.)
       git_clean = false,  -- Show untracked files
       no_buffer = false,  -- Show files currently open in nvim
       exclude = {},       -- No exclusions
