@@ -37,6 +37,8 @@ export ANTHROPIC_API_KEY="your-api-key-here"
 ```bash
 :Lazy sync
 ```
+5. Install mactex
+If you would like to use vim-tex, you need to install the latex compiler for it: `brew install --cask mactex`
 
 5. Verify installation:
 ```bash
